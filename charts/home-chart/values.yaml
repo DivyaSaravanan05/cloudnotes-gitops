@@ -1,4 +1,4 @@
-replicaCount: 2
+replicaCount: 3
 
 image:
   repository: 042617239771.dkr.ecr.ap-south-1.amazonaws.com/cloudnotes/home
