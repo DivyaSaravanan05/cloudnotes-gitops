@@ -1,0 +1,6 @@
+apiVersion: v2
+name: cloudnotes-home
+description: The CloudNotes home page app
+type: application
+version: 0.1.0        # version of the chart itself
+appVersion: "v2"      # version of the app it deploys

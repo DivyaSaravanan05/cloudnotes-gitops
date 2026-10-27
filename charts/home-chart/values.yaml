@@ -1,0 +1,20 @@
+replicaCount: 2
+
+image:
+  repository: 042617239771.dkr.ecr.ap-south-1.amazonaws.com/cloudnotes/home
+  tag: v2
+
+service:
+  port: 80
+  targetPort: 8080
+
+config:
+  greeting: "hello from helm"
+
+resources:
+  requests:
+    cpu: 50m
+    memory: 64Mi
+  limits:
+    cpu: 250m
+    memory: 128Mi
